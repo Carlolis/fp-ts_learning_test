@@ -1,0 +1,25 @@
+{
+  "name": "fp-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel src/index.html",
+    "tsc": "tsc -w --outDir dist/ src/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "fp-ts": "^2.11.4",
+    "parcel": "^2.0.0-rc.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "io-ts": "^2.2.16",
+    "io-ts-types": "^0.5.16"
+  }
+}
